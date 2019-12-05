@@ -4,7 +4,6 @@
 #include<string.h>
 #include<windows.h>
 
-
 void main(){
 	int posx = rand() % 20, posy = rand() % 20;
 	int snake_length;
@@ -17,7 +16,7 @@ void main(){
 		}
 	}
 
-    board[posy][posx] = '*';
+        board[posy][posx] = '*';
 	for (int i = 0; i < n; i++){
 	for (int j = 0; j < n; j++){
 		printf("%c", board[i][j]);
